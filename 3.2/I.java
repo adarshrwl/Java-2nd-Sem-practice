@@ -14,6 +14,7 @@ public class I {
         } else {
             System.out.println("It is Special CHaracter");
         }
+        sc.close();
     }
 
 }
