@@ -40,6 +40,6 @@ public class M {
 
         int number9 = (number - (number % 1)) / 1;
         System.out.println("Number of 5 notes required:" + number9);
-
+        sc.close();
     }
 }
