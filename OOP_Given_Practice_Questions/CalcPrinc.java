@@ -20,6 +20,6 @@ public class CalcPrinc {
         calculateInterest CI = new calculateInterest();
         double total = CI.calculateInt(value, time, Rate);
         System.out.println("Your Total Interest is :" + total);
-
+        sc.close();
     }
 }
