@@ -14,6 +14,7 @@ public class Arr3 {
         System.out.println("Your input values are :");
         for (int j = 0; j < 10; j++) {
             System.out.println(array1[j]);
+            sc.close();
         }
     }
 }
