@@ -20,7 +20,6 @@ public class Q2 {
         System.out.println(arr.size());
         int total = 0;
         for (int i = 0; i < 10; i++) {
-
             total = (arr.get(i)) + total;
         }
         System.out.println(total);
