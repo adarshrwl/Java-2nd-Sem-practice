@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrList4 {
     public static void main(String[] args) {
@@ -24,5 +25,14 @@ public class ArrList4 {
         // Getting the arraylist Size
         int Size = al.size();
         System.out.println(Size);
+
+        // adding more elements into the arraylist
+        al.add("Hello");
+        al.add(0, "Rawal");
+
+        // Sorting
+        Collections.sort(al);
+        System.out.println(al);
+
     }
 }
