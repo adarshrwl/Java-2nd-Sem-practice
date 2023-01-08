@@ -14,5 +14,6 @@ public class Q1 {
             carName.add(i, carN);
         }
         System.out.println(carName);
+        sc.close();
     }
 }
